@@ -1,3 +1,6 @@
+PROJECT ARCHITECTURE:
+![image](https://github.com/sidd-2399/cloud/assets/149344610/0b3a87e6-be1c-4d21-b240-4fd794dc7abd)
+
 Security Groups:
     Security Groups act as virtual firewalls for Amazon EC2 instances (virtual servers) at the instance level. They control inbound and outbound traffic by allowing or denying specific protocols, ports, and IP addresses.
     Each EC2 instance can be associated with one or more security groups, and each security group consists of inbound and outbound rules.
@@ -15,3 +18,5 @@ Network Access Control Lists (NACLs):
     NACL rules can be configured to allow or deny specific types of traffic based on the defined criteria.
     They are stateless, which means that if an inbound rule allows traffic, the corresponding outbound traffic must be explicitly allowed using a separate outbound rule.
     Changes made to NACL rules may take some time to propagate to all the resources using the associated subnet.
+
+
